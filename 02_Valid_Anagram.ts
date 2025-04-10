@@ -1,4 +1,6 @@
-class Solution {
+// https://neetcode.io/problems/is-anagram
+// Sorted solution
+class Solution_02 {
   /**
    * @param {string} s
    * @param {string} t
