@@ -1,3 +1,4 @@
+// https://neetcode.io/problems/duplicate-integer
 // Ideal solution offering both O(n) time and memory complexity
 class Solution {
   /**
