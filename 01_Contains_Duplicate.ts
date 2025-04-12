@@ -1,6 +1,6 @@
 // https://neetcode.io/problems/duplicate-integer
 // Ideal solution offering both O(n) time and memory complexity
-class Solution {
+class Solution_01 {
   /**
    * @param {number[]} nums
    * @return {boolean}
@@ -14,7 +14,7 @@ class Solution {
 }
 
 // Brute Force solution:
-class BruteForceSolution {
+class BruteForceSolution_01 {
   /**
    * @param {number[]} nums
    * @return {boolean}
@@ -32,7 +32,7 @@ class BruteForceSolution {
 }
 
 // Sorting Solution
-class SortingSolution {
+class SortingSolution_01 {
   /**
    * @param {number[]} nums
    * @return {boolean}
