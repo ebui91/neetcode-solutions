@@ -15,7 +15,6 @@ class Solution_04 {
               // increments the count by 1 for char match
               count[char.charCodeAt(0) - 'a'.charCodeAt(0)] += 1;
           }
-          console.log('count: ', count.join(','))
           // consolidate the char counts into a string to be used as a key for the hash map
           // ex: 1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
           const key = count.join(',');
