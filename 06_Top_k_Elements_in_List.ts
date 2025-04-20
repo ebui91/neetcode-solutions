@@ -6,7 +6,7 @@ class Solution_06 {
    * @return {number[]}
    */
   topKFrequent(nums, k) {
-      const hashMap = {};
+      const hashMap: { string?: number } = {};
 
       for(let i=0; i<nums.length; i++) {
           if (hashMap[nums[i]]) {
@@ -15,9 +15,9 @@ class Solution_06 {
               hashMap[nums[i]] = 1;
           }
       };
-      const arr = Object.entries(hashMap);
-      const sorted = arr.sort((a, b) => b[1] - a[1]);
-      const selected = sorted.slice(0, k);
+      const arr: [string, number][] = Object.entries(hashMap);
+      const sorted: [string, number][]  = arr.sort((a: [string, number], b: [string, number]) => b[1] - a[1]);
+      const selected: [string, number][] = sorted.slice(0, k);
       return selected.map(array => array[0]);
   }
 }
